@@ -1,0 +1,46 @@
+*,::before,::after{box-sizing:border-box}
+*{margin:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";line-height:1.6; color:#1a1a1a; background:#fafafa}
+img{max-width:100%; display:block}
+a{color:#2563eb;text-underline-offset:2px}
+a:hover{text-decoration:none}
+
+.container{max-width:720px;margin:0 auto;padding:0 1.5rem}
+
+header{background:#fff;border-bottom:1px solid #e5e7eb;padding:1rem 0}
+header .container{display:flex;align-items:center;justify-content:space-between}
+header h1{font-size:1.25rem;font-weight:600}
+header h1 a{color:#1a1a1a;text-decoration:none}
+nav{display:flex;gap:1rem}
+nav a{color:#4b5563;text-decoration:none;font-size:.9rem}
+nav a:hover{color:#2563eb}
+
+main{padding:2rem 0 3rem}
+main h2{font-size:1.5rem;font-weight:700;margin-bottom:.75rem}
+main h3{font-size:1.15rem;font-weight:600;margin-top:1.5rem;margin-bottom:.5rem}
+main p{margin-bottom:1rem;color:#374151}
+
+p.lead{font-size:1.1rem;color:#4b5563}
+
+.card-link{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:1.5rem;margin-bottom:1rem;transition:border-color .2s}
+.card-link:hover{border-color:#2563eb}
+.card-link h2{margin-bottom:.5rem;font-size:1.25rem}
+.card-link p{margin-bottom:0;color:#4b5563}
+
+.links{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem}
+.links a{display:inline-block;background:#eff6ff;color:#2563eb;padding:.4rem 1rem;border-radius:6px;font-size:.9rem;text-decoration:none}
+.links a:hover{background:#dbeafe}
+
+footer{border-top:1px solid #e5e7bet;background:#fff;padding:1.25rem 0;margin-top:2rem}
+footer .container{font-size:.85rem;color:#6b7280;text-align:center}
+
+hgroup{margin-bottom:2rem}
+hgroup p{margin-bottom:.25rem}
+
+.section-divider{border:none;border-top:1px solid #e5e7eb;margin:2rem 0}
+
+@media(max-width:640px){
+  header .container{flex-direction:column;gap:.5rem;text-align:center}
+  main h2{font-size:1.35rem}
+  p.lead{font-size:1rem}
+}
