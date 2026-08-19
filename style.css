@@ -15,7 +15,7 @@ nav{display:flex;gap:1rem}
 nav a{color:#4b5563;text-decoration:none;font-size:.9rem}
 nav a:hover{color:#2563eb}
 
-.breadcrumb{font-size:.875rem;color:#6b7280;margin-bottom:1.5rem}
+.breadcrumb{font-size:.875rem;color:#6b7280;margin-bottom:1.25rem;padding-top:.5rem}
 .breadcrumb a{color:#2563eb;text-decoration:none}
 .breadcrumb a:hover{text-decoration:underline}
 .breadcrumb span{margin:0 .4rem;color:#9ca3af}
