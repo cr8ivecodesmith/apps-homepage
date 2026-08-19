@@ -27,3 +27,6 @@ Disallow: /
 
 User-agent: Applebot-Extended
 Disallow: /
+
+User-agent: *
+Disallow: /
